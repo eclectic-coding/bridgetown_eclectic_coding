@@ -1,4 +1,4 @@
-
+import "./prism"
 import "index.scss"
 
 

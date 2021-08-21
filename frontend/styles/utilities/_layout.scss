@@ -1,0 +1,15 @@
+.container {
+  width: min(var(--container-width, 80ch), 100vw - 3rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inclusively-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+}
