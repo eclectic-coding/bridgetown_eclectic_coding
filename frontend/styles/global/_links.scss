@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 a:not([class]) {
   color: var(--color-links);
 }
@@ -15,13 +16,15 @@ textarea {
     outline-offset: var(--outline-size);
   }
 
-  &:focus:not(:focus-visible) {
-    outline: none;
-  }
-
   &:focus-visible {
     outline: var(--outline-size) var(--outline-style) var(--outline-color);
     outline-offset: var(--outline-size);
   }
 
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+
 }
+/* stylelint-enable */

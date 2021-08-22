@@ -22,9 +22,13 @@ var config = require("./config/webpack.defaults.js")
 //    config = merge(config, customConfig)
 //  ```
 
+const StylelintPlugin = require('stylelint-webpack-plugin');
+const path = require("path");
+const rootDir = path.resolve(__dirname, "..")
 
-
-
+config.plugins.push(
+    new StylelintPlugin({fileName: path.resolve(rootDir, ".stylelintrc.json")})
+)
 
 ////////////////////////////////////////////////////////
 
