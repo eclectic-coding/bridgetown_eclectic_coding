@@ -14,15 +14,18 @@
     "tokens": "npx a11y-color-tokens --outputDirPath='frontend/styles/abstracts' --colorTokensPath='src/_data/colors.js'"
   },
   "devDependencies": {
-    "@csstools/postcss-sass": "^4.0.0",
     "a11y-color-tokens": "^0.5.0",
     "browser-sync": "^2.26.7",
     "concurrently": "^5.2.0",
     "css-loader": "^4.3.0",
-    "esbuild": "^0.12.7",
-    "esbuild-loader": "^2.13.1",
+    "esbuild": "^0.12.22",
+    "esbuild-loader": "^2.15.1",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^1.3.1",
+    "postcss": "^8.3.6",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-loader": "^6.1.1",
+    "postcss-preset-env": "^6.7.0",
     "sass": "^1.32.8",
     "sass-loader": "^8.0.2",
     "stylelint": "^13.13.1",
@@ -31,9 +34,9 @@
     "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.19.0",
     "stylelint-webpack-plugin": "^2.2.2",
-    "webpack": "^5.39.1",
-    "webpack-cli": "^4.7.2",
-    "webpack-manifest-plugin": "^3.1.1",
+    "webpack": "5.39.1",
+    "webpack-cli": "4.7.2",
+    "webpack-manifest-plugin": "3.1.1",
     "webpack-merge": "^5.8.0"
   }
 }
