@@ -1,5 +1,7 @@
 module.exports = {
+    syntax: 'postcss-scss',
     plugins: {
+        '@csstools/sass': {},
         'postcss-flexbugs-fixes': {},
         'postcss-preset-env': {
             autoprefixer: {
