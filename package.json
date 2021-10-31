@@ -19,7 +19,7 @@
     "browser-sync": "^2.27.7",
     "concurrently": "^6.3.0",
     "css-loader": "^6.5.0",
-    "esbuild": "^0.13.11",
+    "esbuild": "^0.13.12",
     "esbuild-loader": "^2.16.0",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^2.4.3",
