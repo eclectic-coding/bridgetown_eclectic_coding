@@ -3601,10 +3601,10 @@ webpack-cli@4.9.1:
     rechoir "^0.7.0"
     webpack-merge "^5.7.3"
 
-webpack-manifest-plugin@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/webpack-manifest-plugin/-/webpack-manifest-plugin-4.1.0.tgz#d81db448b4bb06a7c358fb49ce717032d614a340"
-  integrity sha512-qzbtp+O+uVCaIJ+bDp4gNQ3uRTr2rxOhn6helrkWFl1hIXmKSbGugelo1pV004IDTmJx84no3KrEm2kT7QB9Sw==
+webpack-manifest-plugin@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/webpack-manifest-plugin/-/webpack-manifest-plugin-4.1.1.tgz#10f8dbf4714ff93a215d5a45bcc416d80506f94f"
+  integrity sha512-YXUAwxtfKIJIKkhg03MKuiFAD72PlrqCiwdwO4VEXdRO5V0ORCNwaOwAZawPZalCbmH9kBDmXnNeQOw+BIEiow==
   dependencies:
     tapable "^2.0.0"
     webpack-sources "^2.2.0"
