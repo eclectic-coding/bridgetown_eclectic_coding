@@ -14,7 +14,7 @@
     "tokens": "npx a11y-color-tokens --outputDirPath='frontend/styles/abstracts' --colorTokensPath='src/_data/colors.js'"
   },
   "devDependencies": {
-    "@csstools/postcss-sass": "^4.0.0",
+    "@csstools/postcss-sass": "^5.0.0",
     "a11y-color-tokens": "^0.5.0",
     "browser-sync": "^2.27.7",
     "concurrently": "^7.0.0",
