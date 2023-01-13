@@ -20,7 +20,7 @@
     "concurrently": "^7.6.0",
     "css-loader": "^6.7.3",
     "esbuild": "^0.16.17",
-    "esbuild-loader": "^2.20.0",
+    "esbuild-loader": "^2.21.0",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^2.7.2",
     "postcss": "^8.4.21",
